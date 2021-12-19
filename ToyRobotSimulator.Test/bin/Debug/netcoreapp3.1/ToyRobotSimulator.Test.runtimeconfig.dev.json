@@ -1,9 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\Marouane\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Marouane\\.nuget\\packages",
-      "C:\\Microsoft\\Xamarin\\NuGet"
-    ]
-  }
-}

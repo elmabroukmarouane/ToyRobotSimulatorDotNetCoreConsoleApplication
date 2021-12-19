@@ -11,7 +11,7 @@ namespace Toy_Robot_Simulator
 @"
 Hello and Welcome to our Toy Robot Simulator !
 Here is all the possible commands :
-    PLACE X,Y,Direction (Where X and Y are integers and Direction NORTH, SOUTH, EAST or WEST)
+    PLACE X,Y,F (Where X and Y are integers and Direction NORTH, SOUTH, EAST or WEST)
     MOVE   – Moves the robot 1 unit in the facing direction.
     LEFT   – turns the robot 90 degrees left.
     RIGHT  – turns the robot 90 degrees right.

@@ -46,7 +46,7 @@ namespace ToyRobotSimulator.Test
 
             // act and assert
             var exception = Assert.ThrowsException<ArgumentException>(delegate { _commandArgsParser.ParseCommand(rawInput); });
-            Assert.AreEqual(exception.Message, "Command not in the right format. Please try again using the correct format: PLACE X,Y,Direction|MOVE|LEFT|RIGHT|REPORT");
+            Assert.AreEqual(exception.Message, "Command not in the right format. Please try again using the correct format: PLACE X,Y,F|MOVE|LEFT|RIGHT|REPORT");
         }
 
         /// <summary>
@@ -79,7 +79,7 @@ namespace ToyRobotSimulator.Test
             // act and assert
             var exception = Assert.ThrowsException<ArgumentException>(delegate
             { var placeCommandParameter = _commandArgsParser.ParseCommandParameter(rawInput); });
-            Assert.AreEqual(exception.Message, "Your 'PLACE' Command is incomplete. Please make sure that you're entering the right format (PLACE X,Y,Direction)");
+            Assert.AreEqual(exception.Message, "Your 'PLACE' Command is incomplete. Please make sure that you're entering the right format (PLACE X,Y,F)");
         }
 
         /// <summary>
@@ -107,7 +107,7 @@ namespace ToyRobotSimulator.Test
 
             // act and assert
             var exception = Assert.ThrowsException<ArgumentException>(delegate { _placeCommandParameterParser.ParseParameters(rawInput); });
-            Assert.AreEqual(exception.Message, "Your 'PLACE' Command is incomplete. Please make sure that you're entering the right format (PLACE X,Y,Direction)");
+            Assert.AreEqual(exception.Message, "Your 'PLACE' Command is incomplete. Please make sure that you're entering the right format (PLACE X,Y,F)");
         }
     }
 }

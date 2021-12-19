@@ -27,7 +27,7 @@ namespace Business.Helper.Classes.ConsoleManager
         {
             Command command;
             if (!Enum.TryParse(argsCommands[0], true, out command))
-                throw new ArgumentException("Command not in the right format. Please try again using the correct format: PLACE X,Y,Direction|MOVE|LEFT|RIGHT|REPORT");
+                throw new ArgumentException("Command not in the right format. Please try again using the correct format: PLACE X,Y,F|MOVE|LEFT|RIGHT|REPORT");
             return command;
         }
 

@@ -24,12 +24,12 @@ namespace Business.Helper.Classes.ConsoleManager
         {
             // Vérifie que la commande 'PLACE' est bien reformulée
             if (parameters.Length != CommandInputCount)
-                throw new ArgumentException("Your 'PLACE' Command is incomplete. Please make sure that you're entering the right format (PLACE X,Y,Direction)");
+                throw new ArgumentException("Your 'PLACE' Command is incomplete. Please make sure that you're entering the right format (PLACE X,Y,F)");
 
             // Vérifie que la commande 'PLACE' a bien ces trois paramètres (X,Y,Direction) 
             var commandParams = parameters[1].Split(',');
             if (commandParams.Length != ParameterCount)
-                throw new ArgumentException("Your 'PLACE' Command is incomplete. Please make sure that you're entering the right format (PLACE X,Y,Direction)");
+                throw new ArgumentException("Your 'PLACE' Command is incomplete. Please make sure that you're entering the right format (PLACE X,Y,F)");
 
             // Vérifie la direction où le Robor se dirige
             if (!Enum.TryParse(commandParams[commandParams.Length - 1], true, out Direction direction))
