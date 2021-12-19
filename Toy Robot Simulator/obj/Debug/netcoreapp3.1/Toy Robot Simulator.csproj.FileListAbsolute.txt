@@ -1,0 +1,18 @@
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Toy Robot Simulator\bin\Debug\netcoreapp3.1\Toy Robot Simulator.exe
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Toy Robot Simulator\bin\Debug\netcoreapp3.1\Toy Robot Simulator.deps.json
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Toy Robot Simulator\bin\Debug\netcoreapp3.1\Toy Robot Simulator.runtimeconfig.json
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Toy Robot Simulator\bin\Debug\netcoreapp3.1\Toy Robot Simulator.runtimeconfig.dev.json
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Toy Robot Simulator\bin\Debug\netcoreapp3.1\Toy Robot Simulator.dll
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Toy Robot Simulator\bin\Debug\netcoreapp3.1\Toy Robot Simulator.pdb
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Toy Robot Simulator\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Toy Robot Simulator\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Toy Robot Simulator\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Toy Robot Simulator\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Toy Robot Simulator\obj\Debug\netcoreapp3.1\Toy Robot Simulator.csprojAssemblyReference.cache
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Toy Robot Simulator\obj\Debug\netcoreapp3.1\Toy Robot Simulator.AssemblyInfoInputs.cache
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Toy Robot Simulator\obj\Debug\netcoreapp3.1\Toy Robot Simulator.AssemblyInfo.cs
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Toy Robot Simulator\obj\Debug\netcoreapp3.1\Toy Robot Simulator.csproj.CoreCompileInputs.cache
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Toy Robot Simulator\obj\Debug\netcoreapp3.1\Toy Robot Simulator.csproj.CopyComplete
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Toy Robot Simulator\obj\Debug\netcoreapp3.1\Toy Robot Simulator.dll
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Toy Robot Simulator\obj\Debug\netcoreapp3.1\Toy Robot Simulator.pdb
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Toy Robot Simulator\obj\Debug\netcoreapp3.1\Toy Robot Simulator.genruntimeconfig.cache

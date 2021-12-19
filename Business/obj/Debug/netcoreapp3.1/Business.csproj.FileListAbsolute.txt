@@ -1,0 +1,12 @@
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Business\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Business\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Business\obj\Debug\netcoreapp3.1\Business.csprojAssemblyReference.cache
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\Marouane\source\repos\Toy Robot Simulator\Business\obj\Debug\netcoreapp3.1\Business.pdb
