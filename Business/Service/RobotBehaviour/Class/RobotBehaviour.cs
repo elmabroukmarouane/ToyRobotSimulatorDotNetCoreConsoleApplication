@@ -14,6 +14,7 @@ namespace Business.Service.RobotBehaviour.Class
     /// </summary>
     public class RobotBehaviour : IRobotBehaviour
     {
+        // Si on veut vérifier est-ce qu'on aura des colisions entres les robots, il faut injecter la liste de tous les robots
         protected readonly IRobotService _robotService;
         protected readonly ITableService _tableService;
         protected readonly ICommandArgsParser _commandArgsParser;
@@ -55,7 +56,18 @@ namespace Business.Service.RobotBehaviour.Class
                 case Command.Move:
                     var newPosition = _robotService.GetNextPosition();
                     if (_tableService.IsWithinTable(newPosition))
-                        _robotService.SetRobot(position: newPosition);
+                        // Pour vérifier est-ce qu'il aura une colision avec les robots, il faut faire comme suit :
+                        // var countDown = 0; c'est le nombre des directions possible qu'un robot peut emprunter
+                        // while(_robotService.HasColision(newPosition, robots) && countDown < 4) tant qu'il y un robot sur la direction à emprunter et dans la position voulue, on va le tourner à gauche
+                        // {
+                        //      _robotService.ToLeft();
+                        //      countDown++;
+                        // }
+                        // if(countDown > 0 && countDown < 4) Ici, si jamais il n'a pas tourner 360°, alors il a trouvé une direction qui est vide pour se déplacer sinon il sera encercler des robots, et donc il ne pourra plus bouger
+                        // {
+                        //      _robotService.SetRobot(position: newPosition);
+                        // }
+                        _robotService.SetRobot(position: newPosition); // A supprimer s'il y en a plusieurs robots sur table
                     break;
                 case Command.Left:
                     _robotService.ToLeft();
