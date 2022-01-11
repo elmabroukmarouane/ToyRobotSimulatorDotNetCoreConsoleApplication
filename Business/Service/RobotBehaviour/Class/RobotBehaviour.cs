@@ -57,13 +57,13 @@ namespace Business.Service.RobotBehaviour.Class
                     var newPosition = _robotService.GetNextPosition();
                     if (_tableService.IsWithinTable(newPosition))
                         // Pour vérifier est-ce qu'il aura une colision avec les robots, il faut faire comme suit :
-                        // var countDown = 0; c'est le nombre des directions possible qu'un robot peut emprunter
-                        // while(_robotService.HasColision(newPosition, robots) && countDown < 4) tant qu'il y un robot sur la direction à emprunter et dans la position voulue, on va le tourner à gauche
+                        // var countDown = 4; c'est le nombre des directions possible qu'un robot peut emprunter
+                        // while(_robotService.HasColision(newPosition, robots) && countDown > 0) tant qu'il y un robot sur la direction à emprunter et dans la position voulue, on va le tourner à gauche
                         // {
                         //      _robotService.ToLeft();
-                        //      countDown++;
+                        //      countDown--;
                         // }
-                        // if(countDown > 0 && countDown < 4) Ici, si jamais il n'a pas tourner 360°, alors il a trouvé une direction qui est vide pour se déplacer sinon il sera encercler des robots, et donc il ne pourra plus bouger
+                        // if(countDown > 0) Ici, si jamais il n'a pas tourner 360°, alors il a trouvé une direction qui est vide pour se déplacer sinon il sera encercler des robots, et donc il ne pourra plus bouger
                         // {
                         //      _robotService.SetRobot(position: newPosition);
                         // }
