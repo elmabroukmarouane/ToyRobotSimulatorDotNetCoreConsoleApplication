@@ -16,7 +16,7 @@ Here is all the possible commands :
     LEFT   – turns the robot 90 degrees left.
     RIGHT  – turns the robot 90 degrees right.
     REPORT – Shows the current status of the robot. 
-    EXIT / Exit / exit / 0   – Closes the simulator.
+    EXIT (insensitive cases) / 0   – Closes the simulator.
 To use this Simulator, you need to place the Robot first using PLACE command,
 then you can move it, turn (LEFT, RIGHT), report the current place and direction or finally exit the simulator.
 ";
@@ -35,8 +35,9 @@ then you can move it, turn (LEFT, RIGHT), report the current place and direction
                 var command = Console.ReadLine();
                 if (command == null) continue;
 
-                if (command.Equals("EXIT") || command.Equals("Exit") || command.Equals("exit") || command.Equals("0"))
-                    stopApplication = true;
+                //if (command.Equals("EXIT") || command.Equals("Exit") || command.Equals("exit") || command.Equals("0"))
+                if (command.ToLower().Equals("EXIT".ToLower()) || command.Equals("0")) // Refactoring code for more UX/UI experience
+                    stopApplication = true; // No use of break; For more extensibility of the program, if sameday we need to do some additional processing
                 else
                 {
                     try

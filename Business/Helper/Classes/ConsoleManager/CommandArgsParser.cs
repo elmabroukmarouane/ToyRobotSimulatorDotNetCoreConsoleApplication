@@ -25,6 +25,7 @@ namespace Business.Helper.Classes.ConsoleManager
         /// <returns>Command</returns>
         public Command ParseCommand(string[] argsCommands)
         {
+            // Vérifier est-ce que le premier argument est la commande 'PLACE'
             Command command;
             if (!Enum.TryParse(argsCommands[0], true, out command))
                 throw new ArgumentException("Command not in the right format. Please try again using the correct format: PLACE X,Y,F|MOVE|LEFT|RIGHT|REPORT");

@@ -20,7 +20,7 @@ namespace ToyRobotSimulator.Test
         public TestTable()
         {
             _table = new Table(new Dimension());
-            position = new Position(new Point(6, 6));
+            position = new Position(new Point(5, 5)); // Changed to the authorized dimensions
             _tableService = new TableService(_table);
         }
 
@@ -30,6 +30,11 @@ namespace ToyRobotSimulator.Test
         [TestMethod]
         public void TestInvalidTablePosition()
         {
+            // Added explicitly to the test case insted of make it in the constructor to not disturb who read the code
+            // arrange
+            position.Point.X = 6;
+            position.Point.Y = 6;
+
             // act
             var result = _tableService.IsWithinTable(position);
 
