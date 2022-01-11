@@ -123,5 +123,23 @@ namespace Business.Service.Robot.Class
             }
             _robot.Direction = newDirection;
         }
+
+        /// <summary>
+        /// Vérifier est-ce qu'il y aura une colision avec d'autre robot
+        /// </summary>
+        /// <param name="robots">Liste des robots</param>
+        /// <returns>bool</returns>
+        public bool HasColision(IPosition nextPosition, IList<IRobot> robots = null)
+        {
+            if(robots != null && robots.Count > 0)
+            {
+                foreach (var robot in robots)
+                {
+                    if (robot == _robot) continue;
+                    if (robot.Position.Point.X == nextPosition.Point.X && robot.Position.Point.Y == nextPosition.Point.Y) return true;
+                }
+            }
+            return false;
+        }
     }
 }

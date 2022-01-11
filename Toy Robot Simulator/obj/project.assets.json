@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marouane\\source\\repos\\Toy Robot Simulator\\Toy Robot Simulator\\ToyRobotSimulator.csproj",
+      "projectUniqueName": "C:\\Users\\Marouane\\source\\repos\\ToyRobotSimulatorExtended\\Toy Robot Simulator\\ToyRobotSimulator.csproj",
       "projectName": "ToyRobotSimulator",
-      "projectPath": "C:\\Users\\Marouane\\source\\repos\\Toy Robot Simulator\\Toy Robot Simulator\\ToyRobotSimulator.csproj",
+      "projectPath": "C:\\Users\\Marouane\\source\\repos\\ToyRobotSimulatorExtended\\Toy Robot Simulator\\ToyRobotSimulator.csproj",
       "packagesPath": "C:\\Users\\Marouane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marouane\\source\\repos\\Toy Robot Simulator\\Toy Robot Simulator\\obj\\",
+      "outputPath": "C:\\Users\\Marouane\\source\\repos\\ToyRobotSimulatorExtended\\Toy Robot Simulator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -75,8 +75,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Marouane\\source\\repos\\Toy Robot Simulator\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\Marouane\\source\\repos\\Toy Robot Simulator\\Business\\Business.csproj"
+            "C:\\Users\\Marouane\\source\\repos\\ToyRobotSimulatorExtended\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\Marouane\\source\\repos\\ToyRobotSimulatorExtended\\Business\\Business.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HWfYrvlHO4b4O77Ee4B67rHdsioBkIyVDzcSHbutnweWhH0P8+dHgoscPgp1Cz9ENTQ4Lq2FZCZuqlHBFqoy4A==",
+  "dgSpecHash": "cVNd8T3zg0cb1suGjjY5IIe/ec9WupWc5Z+AaaTpMKmv+JHpHG/f+CkC5cjKk0A/m/QLSLRjNSPw/B5zZp5PDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marouane\\source\\repos\\Toy Robot Simulator\\Toy Robot Simulator\\ToyRobotSimulator.csproj",
+  "projectFilePath": "C:\\Users\\Marouane\\source\\repos\\ToyRobotSimulatorExtended\\Toy Robot Simulator\\ToyRobotSimulator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

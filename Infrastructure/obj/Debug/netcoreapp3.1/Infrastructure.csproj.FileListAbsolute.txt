@@ -6,3 +6,11 @@ C:\Users\Marouane\source\repos\Toy Robot Simulator\Infrastructure\obj\Debug\netc
 C:\Users\Marouane\source\repos\Toy Robot Simulator\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\Marouane\source\repos\Toy Robot Simulator\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
 C:\Users\Marouane\source\repos\Toy Robot Simulator\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\Marouane\source\repos\ToyRobotSimulatorExtended\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+C:\Users\Marouane\source\repos\ToyRobotSimulatorExtended\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\Marouane\source\repos\ToyRobotSimulatorExtended\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\Marouane\source\repos\ToyRobotSimulatorExtended\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Marouane\source\repos\ToyRobotSimulatorExtended\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+C:\Users\Marouane\source\repos\ToyRobotSimulatorExtended\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Marouane\source\repos\ToyRobotSimulatorExtended\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\Marouane\source\repos\ToyRobotSimulatorExtended\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb

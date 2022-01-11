@@ -11,7 +11,13 @@ namespace Infrastructure.Classes.Robot
     /// </summary>
     public class Robot : IRobot
     {
+        public Guid RobotNumber { get; set; }
         public Direction Direction { get; set; }
         public IPosition Position { get; set; }
+
+        public Robot()
+        {
+            RobotNumber = Guid.NewGuid();
+        }
     }
 }

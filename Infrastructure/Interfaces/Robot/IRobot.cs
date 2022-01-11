@@ -10,6 +10,7 @@ namespace Infrastructure.Interfaces.Robot
     /// </summary>
     public interface IRobot
     {
+        Guid RobotNumber { get; set; }
         Direction Direction { get; set; }
         IPosition Position { get; set; }
     }

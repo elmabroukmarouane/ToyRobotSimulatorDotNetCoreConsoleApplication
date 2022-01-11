@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5waYEZDyKGVjjqjs7T5iTUQfsUg65W58qeHafo1N4J2kQtuzhoE9mzURiETqKfoOOo8OwIEeq34fWMpXLSoNvQ==",
+  "dgSpecHash": "pPaMSdPsr1hNLMnxCW6cY1ulwl9JLtML94uTPg6Sw5qR+cvEGdeQOEOcoQVop4qL+bkAn937o3rhKFWpKVy3Pg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marouane\\source\\repos\\Toy Robot Simulator\\ToyRobotSimulator.Test\\ToyRobotSimulator.Test.csproj",
+  "projectFilePath": "C:\\Users\\Marouane\\source\\repos\\ToyRobotSimulatorExtended\\ToyRobotSimulator.Test\\ToyRobotSimulator.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marouane\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Marouane\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

@@ -16,6 +16,5 @@ namespace Infrastructure.Classes.Robot
         {
             Point = point;
         }
-
     }
 }

@@ -5,6 +5,7 @@ using Infrastructure.Enums.Robot;
 using Infrastructure.Interfaces.Robot;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Collections.Generic;
 
 namespace RobotSimulator.Test
 {
@@ -50,7 +51,6 @@ namespace RobotSimulator.Test
             Assert.AreEqual(Direction.South, _robotService.GetRobot().Direction);
         }
 
-
         /// <summary>
         /// Test robot se déplace
         /// </summary>
@@ -85,6 +85,66 @@ namespace RobotSimulator.Test
             Assert.AreEqual(3, _robotService.GetRobot().Position.Point.X);
             Assert.AreEqual(3, _robotService.GetRobot().Position.Point.Y);
             Assert.AreEqual(Direction.North, _robotService.GetRobot().Direction);
+        }
+
+        /// <summary>
+        /// Test Pas de colision entre robots
+        /// </summary>
+        [TestMethod]
+        public void TestNoColisionWithOtherRobots()
+        {
+            // arrange
+            _robotService.SetRobot(direction: Direction.East);
+            var robot2 = new Robot();
+            var position2 = new Position(new Point(4, 4));
+            var robotService2 = new RobotService(robot2);
+            robotService2.Place(position2, Direction.North);
+            var robot3 = new Robot();
+            var position3 = new Position(new Point(2, 4));
+            var robotService3 = new RobotService(robot3);
+            robotService3.Place(position3, Direction.East);
+            var robots = new List<IRobot>
+            {
+                _robot,
+                robot2,
+                robot3
+            };
+
+            // act
+            var nextPosition = _robotService.GetNextPosition();
+
+            // assert
+            Assert.AreEqual(false, _robotService.HasColision(nextPosition, robots));
+        }
+
+        /// <summary>
+        /// Test colision entre robots
+        /// </summary>
+        [TestMethod]
+        public void TestColisionWithOtherRobots()
+        {
+            // arrange
+            _robotService.SetRobot(direction: Direction.East);
+            var robot2 = new Robot();
+            var position2 = new Position(new Point(4, 4));
+            var robotService2 = new RobotService(robot2);
+            robotService2.Place(position2, Direction.North);
+            var robot3 = new Robot();
+            var position3 = new Position(new Point(3, 2));
+            var robotService3 = new RobotService(robot3);
+            robotService3.Place(position3, Direction.East);
+            var robots = new List<IRobot>
+            {
+                _robot,
+                robot2,
+                robot3
+            };
+
+            // act
+            var nextPosition = _robotService.GetNextPosition();
+
+            // assert
+            Assert.AreEqual(true, _robotService.HasColision(nextPosition, robots));
         }
     }
 }

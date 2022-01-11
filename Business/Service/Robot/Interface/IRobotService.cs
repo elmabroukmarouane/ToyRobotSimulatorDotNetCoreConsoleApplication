@@ -62,5 +62,12 @@ namespace Business.Service.Robot.Interface
         /// <param name="direction">Direction du Robot</param>
         /// <returns>void</returns>  
         void Turn(int MoveTurnNumber);
+
+        /// <summary>
+        /// Vérifier est-ce qu'il y aura une colision avec d'autre robot
+        /// </summary>
+        /// <param name="robots">Liste des robots</param>
+        /// <returns>bool</returns>
+        bool HasColision(IPosition nextPosition, IList<IRobot> robots = null);
     }
 }
